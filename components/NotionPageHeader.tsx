@@ -36,7 +36,6 @@ const ToggleThemeButton = () => {
 export const NotionPageHeader: React.FC<{
   block: types.CollectionViewPageBlock | types.PageBlock
 }> = ({ block }) => {
-  console.log(navigationLinks);
   const { components, mapPageUrl } = useNotionContext()
 
   if (navigationStyle === 'default') {
